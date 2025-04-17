@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './EducationStyles.module.css'; // Use CSS Modules for scoped styling
-import { m, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import mistLogo from '/src/assets/mist.png';
 import rajukLogo from '/src/assets/rajuk.png';
 import milestoneLogo from '/src/assets/milestone.png';
@@ -8,7 +8,7 @@ import milestoneLogo from '/src/assets/milestone.png';
 const educationData = [
   {
     institution: 'Military Institute of Science & Technology (MIST)',
-    logo: mistLogo,
+    logo: mistLogo ,
     degree: 'Bachelor of Science - BSc. in Computer Science and Engineering (CSE)',
     year: '2021 - 2025',
     description: 'Renowned for its rigorous academic curriculum and emphasis on engineering excellence. Specialized in software development, algorithms, and data structures.',
