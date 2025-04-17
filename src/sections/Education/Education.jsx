@@ -1,25 +1,28 @@
 import React from 'react';
 import styles from './EducationStyles.module.css'; // Use CSS Modules for scoped styling
-import { motion } from 'framer-motion';
+import { m, motion } from 'framer-motion';
+import mistLogo from '/src/assets/mist.png';
+import rajukLogo from '/src/assets/rajuk.png';
+import milestoneLogo from '/src/assets/milestone.png';
 
 const educationData = [
   {
     institution: 'Military Institute of Science & Technology (MIST)',
-    logo: '/src/assets/mist.png',
+    logo: mistLogo,
     degree: 'Bachelor of Science - BSc. in Computer Science and Engineering (CSE)',
     year: '2021 - 2025',
     description: 'Renowned for its rigorous academic curriculum and emphasis on engineering excellence. Specialized in software development, algorithms, and data structures.',
   },
   {
     institution: 'Rajuk Uttara Model College (RUMC)',
-    logo: '/src/assets/rajuk.png',
+    logo: rajukLogo,
     degree: 'Secondary School Certification (SSC) and Higher Secondary Certification (HSC) in Science',
     year: '2013 - 2020',
     description: 'One of the top-ranked institutions in Bangladesh, focusing on science, mathematics and economics with a strong foundation in academic excellence.',
   },
   {
     institution: 'Milestone School & College',
-    logo: '/src/assets/milestone.png',
+    logo: milestoneLogo,
     degree: 'Primary School Certification (PSC)',
     year: '2010 - 2012',
     description: 'A well-reputed institution for providing a strong foundation in primary education with a focus on science and mathematics.',
