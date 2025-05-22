@@ -10,7 +10,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/ASIR AHBAB_CV.pdf';
+import CV from '../../assets/Asir Ahbab-CV.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -58,7 +58,7 @@ function Hero() {
         </span>
         <br />
         <p className={styles.description} >
-          I am a passionate learner in Computer Networking & Operating System. I am eager to solve tough & competitive CTF (Capture The Flag) challenges and also love to work in different team projects.
+          I am a passionate learner in Computer Networking & Operating System. I am also eager to solve tough & competitive CTF (Capture The Flag) challenges and love to work in different team-based projects.
         </p>
         <br />
         <a href={CV} download>
