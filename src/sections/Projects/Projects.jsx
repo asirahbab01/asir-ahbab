@@ -3,6 +3,7 @@ import viberr from '../../assets/transitpro.jpeg';
 import freshBurger from '../../assets/motto.png';
 import hipsster from '../../assets/title.png';
 import brother from '../../assets/vote.jpg';
+import wise from '../../assets/attendance.jpg';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -33,6 +34,12 @@ function Projects() {
           link="https://github.com/asirahbab01/BiometricVotingMachine"
           h3="Biometric Voting Machine"
           p="Smart voting system using fingerprint sensor"
+        />
+        <ProjectCard
+          src={wise}
+          link="https://github.com/asirahbab01/Wise"
+          h3="Wise"
+          p="Smart attendance management in corporate environments"
         />
       </div>
     </section>

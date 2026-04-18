@@ -10,7 +10,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/Asir Ahbab-CV.pdf';
+import CV from '../../assets/Asir_Ahbab_Raiyan_CV.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -41,7 +41,7 @@ function Hero() {
         <h1>
           Asir Ahbab Raiyan
         </h1>
-        <h2>Network Administrator</h2>
+        <h3>Penetration Tester</h3>
         <span>
           <a href="https://tryhackme.com/r/p/ahbab.raiyan">
             <img src={tryIcon} alt="Tryhackme account" />
@@ -58,7 +58,7 @@ function Hero() {
         </span>
         <br />
         <p className={styles.description} >
-          I am a passionate learner in Computer Networking & Operating System. I am also eager to solve tough & competitive CTF (Capture The Flag) challenges and love to work in different team-based projects.
+         Cybersecurity enthusiast focused on Red Team operations, with strong foundations in Computer Networking and Operating Systems. I thrive on tackling challenging CTF (Capture The Flag) problems and enjoy collaborating on dynamic, team-driven projects.
         </p>
         <br />
         <a href={CV} download>

@@ -4,8 +4,16 @@ import { motion } from 'framer-motion';
 import mistLogo from '/src/assets/mist.png';
 import rajukLogo from '/src/assets/rajuk.png';
 import milestoneLogo from '/src/assets/milestone.png';
+import juLogo from '/src/assets/julogo.png';
 
 const educationData = [
+  {
+    institution: 'Institute of Information Technology (IIT), Jahangirnagar University(JU)',
+    logo: juLogo ,
+    degree: 'Master of Science - MSc. in Information Technology (IT)',
+    year: '2025 - 2026',
+    description: 'Focused on IT and software engineering with emphasis on problem-solving and modern technologies, including Neural Networks, Software Testing, and Quality Assurance.',
+  },
   {
     institution: 'Military Institute of Science & Technology (MIST)',
     logo: mistLogo ,
