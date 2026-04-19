@@ -9,7 +9,11 @@
 
     .hero{
         max-width: 200px;
+        transition: opacity 0.7s ease;
     }
+    .hero:hover {
+  transform: scale(1.02);
+  }
 
     span {
         display: flex;
@@ -28,6 +32,16 @@
       a {
         width: fit-content;
         align-self: center;
+      }
+
+      .icon {
+      transition: transform 0.25s ease, filter 0.25s ease;
+      cursor: pointer;
+      }
+
+      .icon:hover {
+      transform: scale(1.15) translateY(-3px);
+      filter: brightness(1.2);
       }
     
       button {

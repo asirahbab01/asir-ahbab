@@ -4,6 +4,12 @@
   text-align: center;
 }
 
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 5px;
+}
+
 form {
   display: flex;
   flex-direction: column;

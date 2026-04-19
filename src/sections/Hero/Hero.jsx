@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/art-asir.png';
+import heroImg from '../../assets/raiyan-portfolio-art.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import tryhackme from '../../assets/tryhackme.png';
@@ -10,6 +10,8 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
+import gmailDark from '../../assets/gmail-dark.png';
+import gmailLight from '../../assets/gmail-light.png';
 import CV from '../../assets/Asir_Ahbab_Raiyan_CV.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
@@ -21,6 +23,7 @@ function Hero() {
   const facebookIcon = theme === 'light' ? twitterLight : twitterDark;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+  const gmailIcon = theme === 'light' ? gmailLight : gmailDark;
 
   return (
     <section id="hero" className={styles.container}>
@@ -44,16 +47,19 @@ function Hero() {
         <h3>Penetration Tester</h3>
         <span>
           <a href="https://tryhackme.com/r/p/ahbab.raiyan">
-            <img src={tryIcon} alt="Tryhackme account" />
+            <img src={tryIcon} alt="Tryhackme account" className={styles.icon} />
           </a>
           <a href="https://www.facebook.com/asirahbab.raiyan" target="_blank">
-            <img src={facebookIcon} alt="Facebook icon" />
+            <img src={facebookIcon} alt="Facebook icon" className={styles.icon} />
           </a>
           <a href="https://github.com/asirahbab01/" target="_blank">
-            <img src={githubIcon} alt="Github icon" />
+            <img src={githubIcon} alt="Github icon" className={styles.icon} />
           </a>
           <a href="https://www.linkedin.com/in/asir-ahbab-raiyan-188045259/" target="_blank">
-            <img src={linkedinIcon} alt="Linkedin icon" />
+            <img src={linkedinIcon} alt="Linkedin icon" className={styles.icon} />
+          </a>
+          <a href="mailto:ahbab.raiyan@gmail.com" target="_blank">
+            <img src={gmailIcon} alt="Send Email" className={styles.icon} />
           </a>
         </span>
         <br />
@@ -62,7 +68,7 @@ function Hero() {
         </p>
         <br />
         <a href={CV} download>
-          <button className="hover">Resume</button>
+          <button className={styles.button}>Resume</button>
         </a>
       </div>
     </section>
