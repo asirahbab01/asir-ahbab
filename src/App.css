@@ -116,6 +116,8 @@
       }
     }
 
+}
+
     /* Moving Dots Animation - Background Layer */
 body::before {
   content: "";
@@ -146,6 +148,4 @@ body::before {
 [data-theme='dark'] body::before {
   background: radial-gradient(circle, #888888 1px, transparent 1px);
   opacity: 0.4; /* Slightly dimmer dots for dark mode */
-}
-
 }
